@@ -1,12 +1,12 @@
-Sialk starter sketches
-======================
+Operatour starter sketches
+==========================
 
-Every folder in here is one sketch. Drop any of them onto the Sialk Operator window
-and it becomes a layer — play music, and watch it move.
+Every folder in here is one sketch. Drop any of them onto the Operatour window
+and it becomes a layer. Play music, and watch it move.
 
 Try this first:
 
-  1. Open Sialk Operator and play some music into your microphone, or route your
+  1. Open Operatour and play some music into your microphone, or route your
      player's output to an input device.
   2. Drop glsl-bands onto the window.
   3. Drop glsl-raymarch on top of it, then drag its opacity bar.
@@ -16,16 +16,16 @@ The folders:
   glsl-bands      three bands of the music, as colour. The simplest one.
   glsl-raymarch   a heavy 3D scene, all in one shader. A stress test that
                   moves with the sound.
-  glsl-shadertoy  written the way Shadertoy sketches are — if you have one,
+  glsl-shadertoy  written the way Shadertoy sketches are: if you have one,
                   it runs like this.
   glsl-legacy     written the way most older shaders on the internet are.
   glsl-points     six hundred points per pixel, driven by the spectrum.
-  p5-points       a p5.js sketch — a field of points that hears the music.
+  p5-points       a p5.js sketch, a field of points that hears the music.
   p5-rings        p5.js rings that breathe with the level and kick on the
                   beat.
   p5-3d           p5.js in 3D, spinning with the music.
 
 Make your own: a folder with one sketch.glsl in it (a GLSL shader), or one
 sketch.js that declares setup() or draw() (a p5.js sketch). Drop it on the
-window the same way. The full story is at sialk.net/operator/docs — and everything
+window the same way. The full story is at sialk.net/operatour/docs, and everything
 your sketch can read from the music is at sialk.net/contract.
